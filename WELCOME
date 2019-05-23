@@ -1,0 +1,13 @@
+# FEniCS 2019.1 customized image
+
+Welcome to hippylib/fenics!
+
+This image provides a full-featured and optimized build of customized 
+version of FEniCS19.
+
+To help you get started this image contains a number of demo
+programs. Explore the demos by entering the 'demo' directory, for
+example:
+
+    cd ~/demo/python/documented/poisson
+    python3 demo_poisson.py
