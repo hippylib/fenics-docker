@@ -63,6 +63,9 @@ RUN /bin/bash -c "cp -r /usr/local/share/dolfin/demo $FENICS_HOME/demo && \
                   echo '' >> $FENICS_HOME/.profile" 
 
 USER fenics
+
+RUN /bin/bash -c "mkdir -p /home/fenics/.local"
+
 WORKDIR $FENICS_HOME
 
 COPY WELCOME $FENICS_HOME/WELCOME
